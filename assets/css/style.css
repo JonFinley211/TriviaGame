@@ -1,0 +1,90 @@
+body {
+    background: url("../images/horizwood.jpg");
+text-align: center;
+color: white;
+line-height: normal;
+
+}
+
+/* .crystal-image {
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    padding: 10px;
+}  */
+header{
+    background: rgb(83, 26, 26);
+    text-align: center;
+    font-size: 100px; 
+    background: radial-gradient( rgb(70, 18, 2),rgb(189, 93, 38));
+    border: 10px solid rgb(236, 197, 160);
+    padding:0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right:100px;
+    /* font-family: 'Hanalei', cursive; */
+    letter-spacing: 15px;
+    font-family: 'Luckiest Guy', cursive;
+    /* font-family: 'Bungee Shade', cursive; */
+}
+h2 {
+    font-size: 80px;
+    color: white;
+    
+} 
+#display {
+    font-family: monospace;
+    font-size: 120px;
+    color: rgb(236, 197, 160);
+    border: 10px solid clear;
+  
+    /* Typography */
+    text-align: center;
+  
+    /* Visual */
+    background: clear;
+  }
+  
+
+  
+  button {
+    width: 200px;
+  background:white;
+  background: radial-gradient(rgb(189, 93, 38),white);
+  color: rgb(70, 18, 2);
+    /* Box-model */
+    height: 50px;
+    font-family: 'Luckiest Guy', cursive;
+    margin: 15px;
+    font-size: 26px;
+  }
+  #arrdd{
+      font-size: 24px;
+  }
+  #question{
+      font-size:24px;
+  }
+
+  #main-container {
+      padding-bottom: 5px;
+    padding-top: 5px;
+    min-height: calc(100vh - 70px);
+  }
+  
+  .main-section {
+    /* float: left; */
+    width: 100%;
+    max-width: 960px;
+    padding: 0px 0px 10px 0px;
+    margin: 0 0 0px;
+    background: #ffffff;
+    background: radial-gradient( rgb(189, 93, 38),rgb(70, 18, 2));
+    border: 1px solid #dddddd;
+  }
+  .container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+  }
