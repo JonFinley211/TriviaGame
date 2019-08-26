@@ -104,7 +104,7 @@
                     // add this question and its answers to the output
                     output.push(
                         `<div class="question"> ${currentQuestion.question} </div>
-        <div class="answers"> ${answers.join("")} </div>`
+        <div class="answers"> ${answers.join("")} </div><br>`
                     );
                 });
 
@@ -142,7 +142,7 @@
                 });
 
                 // show number of correct answers out of total
-                resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
+                resultsContainer.innerHTML = `${numCorrect}  out of  ${myQuestions.length}`;
             }
 
             const quizContainer = document.getElementById("quiz");
@@ -187,60 +187,4 @@
             submitButton.addEventListener("click", showResults);
         })();
 
-//  function quest() {
-
-
-//                 // Next we create a for loop to create crystals for every numberOption.
-//                 for (var i = 0; i < questions.length; i++) 
-//                 for (var i = 0; i < answers.length; i++) 
-//                 var questionsdiv= $("#question");
-//                 var ansdiv= $("#arrdd")
-//                 questionsdiv.append("<div>"+questionsdiv+"<div><br><'input type='checkbox'>"+answers+"</span>");
-
-//                         //     var questionsdiv= $("#question");
-//                         //     $.each(questionslist, function(i, drink){
-//                         //         // for (i=0;i<questionslist.length;i++)
-//                         //         questionsdiv.append("<div>"+drink+"</div><div id=arrdd></div");
-
-
-//                         //     var ansdiv= $("#arrdd")
-//                         //     $.each(answerslist, function(i, drunk){
-//                         //         ansdiv.a("<input type='checkbox'>"+  drunk +"</span>");
-//                         //     });
-//                         // });
-
-//                     // For each iteration, we will create an imageCrystal
-//                     // var imageCrystal = $("<img>");
-
-//                     // First each crystal will be given the class ".crystal-image".
-//                     // This will allow the CSS to take effect.
-//                     // imageCrystal.addClass("crystal-image");
-
-//                     // Each imageCrystal will be given a src link to the crystal image
-//                     // imageCrystal.attr("src", "http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg");
-
-//                     // Each imageCrystal will be given a data attribute called data-crystalValue.
-//                     // This data attribute will be set equal to the array value.
-//                     // imageCrystal.attr("data-crystalvalue", numberOptions[i]);
-
-//                     // Lastly, each crystal image (with all it classes and attributes) will get added to the page.
-//                     // $("#question").html(questions);
-
-
-
-
-
-
-//                 }
-
-//             quest()
-
-
-// var CoAns= ["Acorrect answerA","Bcorrect answerB", "Ccorrect answerC"];
-
-// var inCoAns= ["1wong answerA","2wrong answerA","3wong answerA"]
-// var inCoAns= ["1Bwrong answerb,
-
-
-// $("#question").text(questions);
 

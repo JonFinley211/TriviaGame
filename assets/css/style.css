@@ -64,8 +64,12 @@ h2 {
   }
   #question{
       font-size:24px;
+
   }
 
+#quiz{
+  font-size:21px;
+}
   #main-container {
       padding-bottom: 5px;
     padding-top: 5px;
