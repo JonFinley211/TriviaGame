@@ -16,7 +16,7 @@ This site provides a quiz for most anything and gives shows incorrect answer.
 - Bootstrap
 - Reset.css
 
-How to Install
+## How to Install
 - Clone Repository
 - Npm Install
 - Open in Browser
